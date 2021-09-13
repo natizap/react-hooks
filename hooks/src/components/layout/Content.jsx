@@ -1,6 +1,7 @@
 import './Content.css'
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
+
 import Hooks from '../../views/Content/Hooks'
 import UseState from '../../views/Content/UseState'
 import UseEffect from '../../views/Content/UseEffect'
@@ -11,7 +12,7 @@ const Content = props => (
     <main className="Content">
         <Switch>
             <Route exact path="/">
-                <Home />
+                <Hooks />
             </Route>
             <Route path="/UseState">
                 <UseState />

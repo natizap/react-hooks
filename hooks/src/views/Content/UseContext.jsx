@@ -3,7 +3,7 @@ import React, { useContext } from "react"
 import { AppContexto } from '../../data/Store'
 
 const UseContext = props => {
-    const { contextNome, setContextoNome } = useContext(AppContexto)
+    const { contextoNome, setContextoNome } = useContext(AppContexto)
     const { contextoSenha, setContextoSenha } = useContext(AppContexto)
 
     return (

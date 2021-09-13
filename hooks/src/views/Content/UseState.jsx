@@ -1,5 +1,6 @@
-import './UseSate.css'
-import React, { useState, UseContext} from "react"
+import './UseState.css'
+import React, { useState, useContext } from 'react'
+
 import { AppContexto } from '../../data/Store'
 
 const UseState = props => {
@@ -31,7 +32,7 @@ const UseState = props => {
                     className="campo"
                     type="text" value={sobrenome}
                     placeholder="Digite seu sobrenome"
-                    onChange={e => setSobreome(e.target.value)}
+                    onChange={e => setSobrenome(e.target.value)}
                 />
 
                 <button
